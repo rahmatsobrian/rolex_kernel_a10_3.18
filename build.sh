@@ -11,7 +11,7 @@ KERN_IMG="${WORK_DIR}/out/arch/arm64/boot/Image-gz.dtb"
 KERN_IMG2="${WORK_DIR}/out/arch/arm64/boot/Image.gz"
 
 # PATH toolchain GCC 4.9 (pakai path relatif, aman untuk GitHub Actions)
-TC64="$(pwd)/linegcc4.9/bin/aarch64-linux-gnu-"
+TC64="$(pwd)/linegcc49/bin/aarch64-linux-gnu-"
 TC32="$(pwd)/linegcc49/bin/arm-linux-gnueabi-"
 
 function build_kernel() {
